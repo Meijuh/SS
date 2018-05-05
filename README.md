@@ -105,7 +105,7 @@ which contains code for computing a state space.
 The lab files in this repository already provide three important aspects:
  * A lexer for ANDL: https://github.com/Meijuh/SS/blob/master/src/andl-lexer.l
  * A parser for ANDL: https://github.com/Meijuh/SS/blob/master/src/andl-parser.y
- * Some borderplate code for printing the size of the Petri net specification:
+ * Some boilerplate code for printing the size of the Petri net specification:
    https://github.com/Meijuh/SS/blob/master/src/ss.c.
  * Some borderplate code for parsing CTL formulae in XML format (for the next exercise).
 
