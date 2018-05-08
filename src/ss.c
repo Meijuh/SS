@@ -6,7 +6,7 @@
 
 #include <andl.h>
 #include <andl-lexer.h>
-#include <ss-andl-parser.h>
+#include <andl-parser.h>
 #include <util.h>
 #include <libxml/parser.h>
 #include <libxml/tree.h>
