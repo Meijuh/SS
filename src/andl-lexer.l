@@ -1,11 +1,9 @@
 %option prefix="andl_"
-%option outfile="andl-lexer.c"
-%option header-file="andl-lexer.h"
 %option reentrant bison-bridge bison-locations
 %option noyywrap noyyalloc noyyfree noyyrealloc fast noinput nounput
 %top{
 #include <config.h>
-#include <ss-andl-parser.h>
+#include <andl-parser.h>
 #include <util.h>
 #pragma GCC diagnostic ignored "-Wsign-compare"
 #pragma GCC diagnostic ignored "-Wunused-parameter"
